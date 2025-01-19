@@ -54,8 +54,10 @@ btnIngresar.addEventListener('click', () => {
 
     let password = psswrd1 + psswrd2 + psswrd3
 
-    if (password === "911" || password === "714") {
-        passwordResult.innerHTML = "Contraseña Correcta"
+    if (password === "911") {
+        passwordResult.innerHTML = "Contraseña 1 Correcta"
+    } else if (password === "714") {
+        passwordResult.innerHTML = "Contraseña 2 Correcta"
     } else {
         passwordResult.innerHTML = "Contraseña Incorrecta"
     }
